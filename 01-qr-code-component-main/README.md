@@ -5,26 +5,24 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![Design preview for the QR code component coding challenge](./images/qr-component.png)
 
 ## Table of contents
----
+
 - [Links](#links)
 - [Build with](#built-with)
 - [File structure](#file-structure)
 
 ## Links
----
+
 - Frontend Mentor - [@cnsacramento](https://www.frontendmentor.io/profile/cnsacramento)
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://app.netlify.com/sites/cnsacramento-fm-qr-code-component/deploys)
 
 ## Built with
----
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 
 ## File Structure
----
 
 ```
  .
