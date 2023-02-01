@@ -14,7 +14,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Frontend Mentor - [@cnsacramento](https://www.frontendmentor.io/profile/cnsacramento)
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://app.netlify.com/sites/cnsacramento-fm-qr-code-component/deploys)
+- Live Site URL: [Netlify](https://cnsacramento-fm-qr-code-component.netlify.app/){:target="_blank"}
 
 ## Built with
 
