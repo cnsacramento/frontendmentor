@@ -55,16 +55,10 @@ body {
     justify-content: center;
     gap: 2rem;
     margin: 1rem 1rem;
+    overflow: hidden; 
 }
 
-/*------------------------------------*\
-  # Perfume Image
-\*------------------------------------*/
 
-.perfume__img img {
-   border-top-left-radius: 1rem;
-   border-top-right-radius: 1rem;
-}
 
 /*------------------------------------*\
   # Perfume Content
@@ -74,20 +68,21 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    padding: 0rem 1.5rem 2rem 1.5rem;
+    margin: 0rem 1.5rem 2rem 1.5rem;
 }
 
 .perfume__category {
     font-family: var(--font-family-primary);
     font-weight: var(--font-weigth-regular);
     color: var(--color-neutral-dark-grayish-blue);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .perfume__title {
     font-family: var(--font-family-secondary);
     font-weight: var(--font-weigth-bold);
     font-size: 2rem;
+    line-height: 2rem;
     color: var(--color-neutral-very-dark-blue);
 }
 
@@ -95,6 +90,7 @@ body {
     font-family: var(--font-family-primary);
     font-weight: var(--font-weigth-regular);
     font-size: 0.9rem;
+    line-height: 1.5rem;
     color: var(--color-neutral-dark-grayish-blue);
 }
 
@@ -118,7 +114,7 @@ body {
 .perfume__price {
     font-family: var(--font-family-primary);
     font-weight: var(--font-weigth-regular);
-    font-size: 0.8rem; 
+    font-size: 0.8rem;
     color: var(--color-neutral-dark-grayish-blue);
 }
 
@@ -136,3 +132,51 @@ body {
     gap: 1rem;
 }
 
+.perfume__btn:active {
+    background: #084431;
+}
+
+/*------------------------------------*\
+  # Perfume Desktop
+\*------------------------------------*/
+
+@media (min-width: 600px) {
+
+    .perfume {
+        gap: 0.7rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 42rem;
+    }
+
+
+    .perfume__content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 0rem 1.5rem 2rem 1.5rem;
+    }
+
+    .perfume__category {
+        margin-top: 2rem;
+    }
+
+    .perfume__title {
+        max-width: 15rem;
+    }
+
+    .perfume__description {
+        max-width: 15rem;
+    }
+
+    .perfume__prices {
+        margin: 0.4rem 0rem;
+    }
+
+    .perfume__btn {
+        margin-right: 1rem;
+        padding: 1.1rem 3rem;
+        font-size: 0.85rem;
+    }
+
+}
