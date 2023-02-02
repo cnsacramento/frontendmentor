@@ -16,8 +16,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ## Links
 
 - Frontend Mentor - [@cnsacramento](https://www.frontendmentor.io/profile/cnsacramento)
-- Solution URL: [My solution](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://cnsacramento-fm-product-preview-card-component.netlify.app/)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/product-preview-card-component-ez7gH0hGDc)
+- Live Site URL: [Netlify](https://cnsacramento-fm-product-preview.netlify.app/)
 
 ## Built with
 
